@@ -6,10 +6,8 @@ An intelligent dispute resolution system powered by OpenAI's function calling ca
 
 ### Enhanced User Experience
 - **User Authentication**: Role-based user selection with department tracking
-- **Complete Session Management**: Full session tracking with user_id and session_id across all operations
 - **Enhanced Logging**: Structured logging with session context for complete audit trails
 - **Real-time Progress**: Live updates during dispute processing with detailed function execution tracking
-- **Apple-inspired UI**: Clean, intuitive interface with responsive design
 
 ### Intelligent Function Calling Architecture
 The system implements an advanced AI-driven workflow using OpenAI's function calling:
@@ -225,34 +223,6 @@ The system includes realistic mock data:
 - **3 dispute policies** covering different categories
 
 All data uses realistic but fake information suitable for testing and education.
-
-## 🔮 Future Enhancements
-
-### Observability Integration
-The system includes comprehensive session tracking and enhanced logging:
-
-- **Session Tracking**: Complete user_id and session_id propagation through all operations
-- **Structured Logging**: Enhanced logging format with session context for every function call
-- **Audit Trails**: Full traceability from user action to system response
-- **Monitoring Ready**: Built-in support for APM tools (Datadog, New Relic, OpenTelemetry)
-- **Cost Attribution**: Track OpenAI API usage by user and session
-- **Performance Monitoring**: Function-level timing and success rates
-
-### Recent Enhancements
-- ✅ **Complete Session Tracking**: Every log entry includes user and session context
-- ✅ **Enhanced Function Registry**: Session context propagated to all function calls  
-- ✅ **Improved Error Handling**: Better validation and type conversion for CSV data
-- ✅ **Production-Ready Logging**: Structured logging suitable for enterprise monitoring
-
-### Planned Features
-- [ ] Integration with OpenTelemetry for tracing
-- [ ] Real banking API connections
-- [ ] Advanced ML risk scoring
-- [ ] Multi-language support
-- [ ] Compliance reporting dashboard
-- [ ] Database integration (PostgreSQL/MongoDB)
-- [ ] Role-based access control (RBAC)
-- [ ] API rate limiting and caching
 
 ## 🛡️ Security & Privacy
 
